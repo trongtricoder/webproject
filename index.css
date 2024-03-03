@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    border: 3px solid;
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding-bottom: 175px;
+    margin-top: 20px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-size: 30px;
+}
+#mail, #pass{
+    height: 50px;
+    width: 50%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.forms{
+    padding: 15px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    background-color: blue;
+    border-radius: 90px;
+    margin-top: 50px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(162, 153, 153);
+    color: black;
+}
+#errorAlert{
+    display: none;
+    color:red; 
+}
